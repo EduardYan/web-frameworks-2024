@@ -41,7 +41,7 @@ main {
 
 .frameworks {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   gap: 2.5em;
 }
 
@@ -357,5 +357,9 @@ body.dark .frameworks article {
 @media (width < 600px) {
   main {
     max-width: 95%;
+  }
+
+  .frameworks {
+    row-gap: 0;
   }
 }
