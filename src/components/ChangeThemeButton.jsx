@@ -9,7 +9,7 @@ const ChangeThemeButton = () => {
     localStorage.setItem('theme', theme)
   }, [theme])
 
-  const handleThemeChange = () => {
+  const handleClick = () => {
     setTheme((prevTheme) => (prevTheme === 'light' ? 'dark' : 'light'))
   }
 
@@ -22,8 +22,8 @@ const ChangeThemeButton = () => {
           type='checkbox'
           role='switch'
           name='theme'
-          defaultValue='dark'
-          onChange={handleThemeChange}
+          defaultValue='light'
+          onChange={handleClick}
           checked={theme === 'dark'}
         />
         <span className='theme__fill' />

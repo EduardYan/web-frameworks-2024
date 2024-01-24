@@ -34,6 +34,14 @@ main {
   font-size: 3em;
 }
 
+.intro div a svg {
+  stroke: #333333;
+}
+
+body.dark .intro div a svg {
+  stroke: #eee;
+}
+
 .intro p {
   font-size: 1.5em;
   text-align: center;
@@ -350,7 +358,7 @@ body.dark .frameworks article {
 @media (width < 720px) {
   .intro div {
     flex-direction: column;
-    gap: 0;
+    gap: 20px;
   }
 }
 
