@@ -1,11 +1,13 @@
 import { useState, useEffect } from 'react'
 
 const ChangeThemeButton = () => {
+  // eslint-disable-next-line no-undef
   const storedTheme = localStorage.getItem('theme')
   const [theme, setTheme] = useState(storedTheme || 'light')
 
   useEffect(() => {
     document.body.className = theme
+    // eslint-disable-next-line no-undef
     localStorage.setItem('theme', theme)
   }, [theme])
 
