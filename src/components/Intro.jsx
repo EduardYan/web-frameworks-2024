@@ -4,7 +4,7 @@ const Intro = () => {
   return (
     <header className='intro'>
       <div>
-        <h1>Frameworks web 👨‍💻</h1>
+        <h1>Web frameworks 👨‍💻</h1>
 
         <ChangeThemeButton />
 

@@ -2,7 +2,6 @@ import Framework from './Framework.jsx'
 
 const FrameworksView = () => {
   return (
-
     <section className='frameworks'>
       <Framework img='/img/astro.webp' name='Astro' description="Astro powers the world's fastest websites, client-side web apps, dynamic API endpoints, and everything in-between." href='https://astro.build/' />
 
